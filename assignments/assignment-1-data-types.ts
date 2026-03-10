@@ -1,3 +1,6 @@
+
+//Process 1
+
 //1. Temperature of a city in degrees Celsius: 25.5
 let temperature: number = 25.5;
 console.log(temperature);
@@ -77,3 +80,52 @@ console.log(birthplace);
 //20. Distance between two cities: 200.5
 let distanceBetweenCities: number = 200.5;
 console.log(distanceBetweenCities);
+
+//Process 2
+
+interface sachinInfo { 
+temperature: number,
+hasPlacedOrder: boolean,
+phoneNumber: string,
+bankAccountBalance: number,
+emailAddress: string,
+coordinates: [number, number],
+isMarried: boolean,
+occupation: string,
+favouriteColour: string,
+currentYear: number,
+numberOfFollowers: number,
+movieRating: number,
+bloodType: string,
+bookTitle: string,
+numberOfEmployees: number,
+eventTime: string,
+countryName: string,
+eyeColor: string,
+birthplace: string,
+distanceBetweenCities: number
+}
+
+let sachin: sachinInfo = {
+    temperature: 25.5,
+    hasPlacedOrder: true,
+    phoneNumber: "123-456-7890",
+    bankAccountBalance: 1000.50,
+    emailAddress: "john.doe@example.com",
+    coordinates: [37.7749, -122.4194],
+    isMarried: false,
+    occupation: "Software Engineer",
+    favouriteColour: "Blue",
+    currentYear: 2023,
+    numberOfFollowers: 1000000,
+    movieRating: 7.5,
+    bloodType: 'A',
+    bookTitle: "To Kill a Mockingbird",
+    numberOfEmployees: 500,
+    eventTime: "2:30 PM",
+    countryName: "United States",
+    eyeColor: "Brown",
+    birthplace: "New York City",
+    distanceBetweenCities: 200.5
+}
+console.log(sachin);
