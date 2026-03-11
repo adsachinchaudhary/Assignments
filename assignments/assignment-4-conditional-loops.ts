@@ -28,7 +28,6 @@ let suspiciousCount = 0;
 
 for (let i = 0; i < transactions.length; i++) {
     let amount = transactions[i];
-    // Credit transaction
     if (amount > 0) {
         creditCount++;
         totalCredit += amount;
