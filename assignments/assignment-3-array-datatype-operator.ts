@@ -24,3 +24,12 @@ console.log("Suresh" + ": " + updatedMarks[0]);
 console.log("Mahesh" + ": " + updatedMarks[1]);
 console.log("Naresh" + ": " + updatedMarks[2]);
 console.log("Average Marks:", averageMarks);
+
+/*
+Output:
+Updated Marks:
+Suresh: 85
+Mahesh: 90
+Naresh: 92
+Average Marks: 89
+*/

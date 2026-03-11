@@ -54,3 +54,15 @@ console.log(`Total amount credited: ${totalCredit}`);
 console.log(`Total amount debited: ${totalDebit}`);
 console.log(`Remaining balance in bank account: ${remainingBalance}`);
 console.log(`Total number of suspicious transactions: ${suspiciousCount}`);
+
+
+/**********Output**********
+Suspicious credit transaction with amount: 50000
+Suspicious debit transaction with amount: -15000
+Total number of credit transactions: 3
+Total number of debit transactions: 5
+Total amount credited: 57000
+Total amount debited: -20500
+Remaining balance in bank account: 36500
+Total number of suspicious transactions: 2
+*/
