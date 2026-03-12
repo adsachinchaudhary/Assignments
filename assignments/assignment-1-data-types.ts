@@ -1,5 +1,5 @@
 
-//Process 1
+//Assignment -1 (Data Types)
 
 //1. Temperature of a city in degrees Celsius: 25.5
 let temperature: number = 25.5;

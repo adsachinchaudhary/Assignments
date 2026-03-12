@@ -1,3 +1,4 @@
+//Assignment -5 (Conditional Statements & Loops)
 
 interface Employee {
     name: string;
@@ -44,3 +45,13 @@ for (let employee of employees) {
 hikeMap.forEach((hikePercentage, name) => {
     console.log(`${name}: ${hikePercentage.toFixed(2)}%`);
 });
+
+
+
+/**********Output**********
+AliceJohnson: 23.67%
+BobSmith: 11.76%
+CarolDavis: 22.93%
+DavidBrown: 8.89%
+EvaGreen: 12.00% 
+*/
