@@ -22,7 +22,7 @@ function evaluateLoanEligibility(customerName: string, creditScore: number, inco
     }
 }
 let customerName = "John Doe";
-let creditScore = 720;
+let creditScore = 750;
 let income = 50000.0;
 let isEmployed = false;
 let debtToIncomeRatio = 35.0;
