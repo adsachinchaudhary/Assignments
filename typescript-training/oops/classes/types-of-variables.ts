@@ -23,7 +23,7 @@ let obj = new Employee();
 obj.printEmpDetails();
 
 //access local variable
-console.log(obj.empSalary);
+// console.log(obj.empSalary); // This will cause an error because empSalary is a local variable
 
 //access instance variable
 console.log(obj.empName);
